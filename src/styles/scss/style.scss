@@ -1,4 +1,6 @@
 @import './header';
+@import './nav';
+@import './footer';
 
 * {
   margin: 0;
@@ -33,11 +35,8 @@ p {
 body {
   font: 62.5%/1.5 'Lucida Grande', 'Lucida Sans', Tahoma, Verdana, sans-serif;
   color: #fff;
-  background-color: #003459;
+  background-color: #d9d9d9;
 }
 
 #wrapper {
-  width: 980px;
-  margin-left: auto;
-  margin-right: auto;
 }
