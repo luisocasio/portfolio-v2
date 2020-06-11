@@ -1,0 +1,43 @@
+@import './header';
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+h4 {
+  font-size: 1.6em;
+}
+
+h5 {
+  font-size: 1.4em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+body {
+  font: 62.5%/1.5 'Lucida Grande', 'Lucida Sans', Tahoma, Verdana, sans-serif;
+  color: #fff;
+  background-color: #003459;
+}
+
+#wrapper {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
