@@ -1,5 +1,6 @@
 @import './header';
 @import './nav';
+@import './introContent';
 @import './footer';
 
 * {
@@ -31,12 +32,17 @@ h5 {
 p {
   font-size: 1.2em;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 body {
   font: 62.5%/1.5 'Lucida Grande', 'Lucida Sans', Tahoma, Verdana, sans-serif;
   color: #fff;
-  background-color: #d9d9d9;
+  background-color: #212d40;
 }
 
 #wrapper {
+  width: 100%;
 }
