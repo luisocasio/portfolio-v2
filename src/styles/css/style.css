@@ -88,10 +88,50 @@
 }
 
 .carousel {
-  border: 2px solid #fff;
   height: 50%;
   width: 50%;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+.project_buttons button {
+  width: 225px;
+  height: 65px;
+  border: none;
+  text-decoration: none;
+  border-radius: 35px;
+  font-size: 2rem;
+}
+
+.project_buttons .code {
+  background-color: #21367f;
+  color: #fff;
+  border: 4px solid skyblue;
+}
+
+.project_buttons .view {
+  color: #fff;
+  background-color: skyblue;
 }
 
 .details {
