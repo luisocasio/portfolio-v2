@@ -1,7 +1,5 @@
 .header {
-  background-color: #284b63;
-  font-size: 1rem;
-  height: 5rem;
+  height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,10 +16,13 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
+  font-size: 1.5rem;
 }
 
 .logo {
   width: 50%;
+  height: 100%;
+  word-spacing: 5px;
 }
 
 .links {
@@ -30,53 +31,41 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 50%;
+  width: 25%;
+  height: 100%;
 }
 
 .intro-content {
-  background-color: #ffffff;
+  background: url("../../images/luluport_SVG/denverBanner.png") center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 550px;
 }
 
-.profileContainer-pic {
-  height: 100%;
-  width: 100%;
-}
-
-.profile-pic {
-  width: 250px;
-  border-radius: 1%;
-  margin: 2rem 2rem;
-}
-
-.intro {
-  width: 100%;
-  height: 250px;
+.intro_title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: -5%;
-  background-color: #494949;
+  height: 70px;
 }
 
-.name {
-  font-size: 2rem;
-  text-align: left;
+.projects-container {
+  height: 600px;
+  margin-top: 20px;
+  border: 1px solid #fff;
 }
 
-.location {
-  font-size: 1rem;
-}
-
-.job-title {
-  font-size: 2rem;
-  text-align: center;
-  text-decoration: underline;
+.projects-section {
+  height: 600px;
+  margin-top: 20px;
 }
 
 .footer {
@@ -123,11 +112,6 @@ a {
 }
 
 body {
-  font: 62.5%/1.5 'Lucida Grande', 'Lucida Sans', Tahoma, Verdana, sans-serif;
   color: #fff;
-  background-color: #212d40;
-}
-
-#wrapper {
-  width: 100%;
+  background-color: #15202b;
 }

@@ -1,6 +1,9 @@
 @import './header';
 @import './nav';
 @import './introContent';
+@import './carousel';
+@import './Projects';
+@import './education';
 @import './footer';
 
 * {
@@ -38,11 +41,6 @@ a {
 }
 
 body {
-  font: 62.5%/1.5 'Lucida Grande', 'Lucida Sans', Tahoma, Verdana, sans-serif;
   color: #fff;
-  background-color: #212d40;
-}
-
-#wrapper {
-  width: 100%;
+  background-color: #15202b;
 }
