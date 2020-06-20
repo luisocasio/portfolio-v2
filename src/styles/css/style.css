@@ -38,9 +38,9 @@
 
 .intro-content {
   background: url("../../images/luluport_SVG/denverBanner.png") center;
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 550px;
+  height: 650px;
 }
 
 .intro_title {
@@ -56,17 +56,81 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 70px;
+  border-bottom: 3px solid gray;
+}
+
+.carousel_container {
+  background-color: #15202b;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel_wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.back {
+  width: 10%;
+  padding: 1rem;
+}
+
+.next {
+  width: 10%;
+  padding: 1rem;
+}
+
+.carousel {
+  border: 2px solid #fff;
+  height: 50%;
+  width: 50%;
+  text-align: center;
+}
+
+.details {
+  border-left: 1px solid indigo;
+  height: 80%;
+}
+
+.project_details {
+  padding: 1rem;
+}
+
+.stack_details {
+  padding: 1rem;
 }
 
 .projects-container {
-  height: 600px;
-  margin-top: 20px;
+  height: 650px;
   background-color: #21367f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 3px solid gray;
+}
+
+.project_details {
+  border-bottom: 1px solid indigo;
+  width: 100%;
 }
 
 .about {
-  height: 600px;
-  margin-top: 20px;
+  height: 650px;
+  text-align: center;
 }
 
 .footer {

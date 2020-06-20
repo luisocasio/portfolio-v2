@@ -1,8 +1,8 @@
 .intro-content {
   background: url('../../images/luluport_SVG/denverBanner.png') center;
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 550px;
+  height: 650px;
 }
 
 .intro_title {
@@ -11,4 +11,5 @@
   align-items: center;
   justify-content: space-around;
   height: 70px;
+  border-bottom: 3px solid gray;
 }

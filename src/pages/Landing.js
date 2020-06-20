@@ -8,14 +8,14 @@ import IntroTitle from '../components/IntroTitle'
 
 const Landing = () => {
   return (
-    <>
+    <div>
       <Header />
       <IntroContent />
       <IntroTitle />
       <Projects />
       <About />
       <Footer />
-    </>
+    </div>
   )
 }
 
