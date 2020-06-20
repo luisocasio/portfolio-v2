@@ -4,8 +4,7 @@ const IntroTitle = () => {
   return (
     <div className='intro_title'>
       <div>THE MAGIC THE GATHERING</div>
-      <h1>LUIS OCASIO PEREZ</h1>
-      <div>ESPRESSO</div>
+      <div>LUIS OCASIO PEREZ</div>L<div>ESPRESSO</div>
     </div>
   )
 }

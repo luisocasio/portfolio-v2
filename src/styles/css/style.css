@@ -1,5 +1,4 @@
 .header {
-  background-color: #21367f;
   height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -128,9 +127,66 @@
   width: 100%;
 }
 
+.main_about {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 3rem;
+}
+
 .about {
+  position: relative;
   height: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom: 3px solid gray;
+  width: 100%;
   text-align: center;
+}
+
+.about_me {
+  width: 60%;
+  padding: 1rem;
+}
+
+.about_description {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.me {
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pic_container {
+  border-right: 1px solid indigo;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem;
 }
 
 .footer {
