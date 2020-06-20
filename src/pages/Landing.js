@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import IntroContent from '../components/IntroContent'
 import Projects from '../components/Projects'
-import Education from '../components/Education'
+import About from '../components/About'
 import IntroTitle from '../components/IntroTitle'
 
 const Landing = () => {
@@ -13,7 +13,7 @@ const Landing = () => {
       <IntroContent />
       <IntroTitle />
       <Projects />
-      <Education />
+      <About />
       <Footer />
     </>
   )
