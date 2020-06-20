@@ -6,7 +6,9 @@ const About = () => {
   return (
     <div className='about'>
       <img src={header} alt='blue header svg' />
-      <div className='main_about'>ABOUT ME</div>
+      {/* <div className='main_about'>
+        <p>ABOUT ME</p>
+      </div> */}
 
       <div className='about_content'>
         <div className='pic_container'>
