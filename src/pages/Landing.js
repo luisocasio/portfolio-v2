@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import IntroContent from "../components/IntroContent";
 import About from "../components/About";
 import IntroTitle from "../components/IntroTitle";
-import Carousel from "../components/Carousel";
+import Projects from "../components/Projects";
 
 const Landing = () => {
   return (
@@ -12,7 +12,7 @@ const Landing = () => {
       <Header />
       <IntroContent />
       <IntroTitle />
-      <Carousel />
+      <Projects />
       <About />
       <Footer />
     </div>
