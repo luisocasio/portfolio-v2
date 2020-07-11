@@ -6,7 +6,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
 }
 
 .nav {
@@ -52,20 +52,20 @@
 }
 
 .intro_title {
+  border-bottom: 3px solid gray;
+  font-size: 8rem;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 90px;
-  border-bottom: 3px solid gray;
+  margin-top: 1rem;
+}
+
+.intro_title li {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .carousel_container {
@@ -79,27 +79,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2rem;
-}
-
-.carousel_wrapper {
-  width: 100%;
-  height: 100%;
-}
-
-.back {
-  width: 10%;
-  padding: 1rem;
-}
-
-.next {
-  width: 10%;
-  padding: 1rem;
+  margin: 1.5rem 0rem 1.5rem 0rem;
 }
 
 .carousel {
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -125,12 +110,11 @@
 }
 
 .project_buttons button {
-  width: 225px;
-  height: 65px;
-  border: none;
+  width: 250px;
+  height: 48px;
   text-decoration: none;
   border-radius: 35px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .project_buttons .code {
@@ -181,6 +165,7 @@
   border-bottom: 3px solid gray;
   width: 100%;
   text-align: center;
+  margin-top: 2.5rem;
 }
 
 .about_me {

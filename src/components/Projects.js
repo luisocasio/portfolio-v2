@@ -9,20 +9,27 @@ import latte from "../assets/latte-site.jpg";
 
 const Projects = () => {
   return (
-    <Carousel className="carousel_container" autoPlay>
-      <div>
-        <img src={jaems} />
-        <p className="legend">Project 1</p>
+    <div>
+      <Carousel className="carousel_container" autoPlay>
+        <div>
+          <img src={jaems} />
+          <p className="legend">Project 1</p>
+        </div>
+        <div>
+          <img src={market} />
+          <p className="legend">Project 2</p>
+        </div>
+        <div>
+          <img src={latte} />
+          <p className="legend">Project 3</p>
+        </div>
+      </Carousel>
+
+      <div className="project_buttons">
+        <button className="code">CODE</button>
+        <button className="view">VIEW</button>
       </div>
-      <div>
-        <img src={market} />
-        <p className="legend">Project 2</p>
-      </div>
-      <div>
-        <img src={latte} />
-        <p className="legend">Project 3</p>
-      </div>
-    </Carousel>
+    </div>
   );
 };
 
@@ -37,9 +44,6 @@ export default Projects;
 //         <img src={back} alt="back arrow" />
 //       </div>
 // <img src={jaems} alt="site image" />
-{
-  /* <img src={market} alt="site image" /> */
-}
 
 // <div className="carousel">
 //   <div className="project_buttons">
@@ -47,12 +51,6 @@ export default Projects;
 //     <button className="view">VIEW</button>
 //   </div>
 // </div>
-
-// <div className="details">
-//   <div className="project_details">
-//     <h3>About this Project</h3>
-//     <p>8 week long project</p>
-//   </div>
 
 //   <div className="stack_details">
 //     <h3>Tech Stack</h3>

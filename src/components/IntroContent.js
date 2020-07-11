@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const IntroContent = () => {
-  return <div className='intro-content'></div>
-}
+  return <div className="intro-content"></div>;
+};
 
-export default IntroContent
+export default IntroContent;
