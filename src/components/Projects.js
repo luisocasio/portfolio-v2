@@ -9,22 +9,27 @@ import latte from "../assets/latte-site.jpg";
 
 const Projects = () => {
   return (
-    <Carousel className="carousel_container">
+    <Carousel className="carousel_container" autoPlay>
       <div>
         <img src={jaems} />
-        <p className="legend">Legend 1</p>
+        <p className="legend">Project 1</p>
       </div>
       <div>
         <img src={market} />
-        <p className="legend">Legend 2</p>
+        <p className="legend">Project 2</p>
       </div>
       <div>
         <img src={latte} />
-        <p className="legend">Legend 3</p>
+        <p className="legend">Project 3</p>
       </div>
     </Carousel>
   );
 };
+
+// renderArrowPrev: (clickHandler: () => void, hasPrev: boolean, label: string) =>
+//   React.ReactNode;
+// renderArrowNext: (clickHandler: () => void, hasNext: boolean, label: string) =>
+//   React.ReactNode;
 
 export default Projects;
 
