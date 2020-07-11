@@ -13,15 +13,15 @@ const Projects = () => {
       <Carousel className="carousel_container" autoPlay>
         <div>
           <img src={jaems} />
-          <p className="legend">Project 1</p>
+          <p className="legend">Jaemsounds</p>
         </div>
         <div>
           <img src={market} />
-          <p className="legend">Project 2</p>
+          <p className="legend">Market ave.</p>
         </div>
         <div>
           <img src={latte} />
-          <p className="legend">Project 3</p>
+          <p className="legend">Latte Luv</p>
         </div>
       </Carousel>
 
