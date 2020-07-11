@@ -1,6 +1,6 @@
 import React from 'react'
-import header from '../images/luluport_SVG/royalblueHeader.svg'
-import myself from '../images/luluport_SVG/lulu.svg'
+import header from '../assets/luluport_SVG/royalblueHeader.svg'
+import myself from '../assets/luluport_SVG/lulu.svg'
 
 const About = () => {
   return (

@@ -1,10 +1,10 @@
-@import './header';
-@import './nav';
-@import './introContent';
-@import './carousel';
-@import './projects';
-@import './about';
-@import './footer';
+@import "./header";
+@import "./nav";
+@import "./introContent";
+@import "./carousel";
+@import "./projects";
+@import "./about";
+@import "./footer";
 
 * {
   margin: 0;
@@ -41,6 +41,8 @@ a {
 }
 
 body {
+  width: 1100px;
+  margin: auto;
   color: #fff;
   background-color: #15202b;
 }

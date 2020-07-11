@@ -1,16 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './styles/css/style.css'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Landing from './pages/Landing'
+import React from "react";
+import ReactDOM from "react-dom";
+import "./styles/css/style.css";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Landing from "./pages/Landing";
 
 const App = () => {
   return (
-    <div id='wrapper'>
-      <Route exact path='/' component={Landing} />
+    <div id="wrapper">
+      <Route exact path="/" component={Landing} />
     </div>
-  )
-}
+  );
+};
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,5 +18,5 @@ ReactDOM.render(
       <App />
     </Router>
   </React.StrictMode>,
-  document.getElementById('root')
-)
+  document.getElementById("root")
+);
