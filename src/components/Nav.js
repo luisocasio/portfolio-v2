@@ -19,28 +19,28 @@ const Nav = () => {
   }
 
   const barAnimation = useSpring({
-    from: { transform: "translate3d(0, -10rem, 0)" },
-    transform: "translate3d(0, 0, 0)",
     backgroundColor: change ? "#1a2b66" : "rgba(0,0,0,0)",
     height: change ? "40px" : "0px",
     color: change ? "#d617bd" : "#fff",
     zIndex: 200,
     position: "fixed",
-    height: "70px",
     display: "flex",
     alignItems: "center",
     width: "100%",
+    height: "70px",
+    top: 0,
+    left: 0,
   });
   if (typeof window !== undefined) {
     return (
-      <animated.div style={barAnimation}>
-        <div class="title">
+      <animated.div className="nav" style={barAnimation}>
+        <div className="title">
           <Link to="#">
             <h5>FULL STACK WEB DEVELOPER</h5>
           </Link>
         </div>
 
-        <div class="links">
+        <div className="links">
           <Link to="#">SKILLS</Link>
           <Link to="#">PROJECTS</Link>
           <Link to="#">CONTACT</Link>

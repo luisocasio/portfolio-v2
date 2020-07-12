@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import IntroContent from "../components/IntroContent";
 import About from "../components/About";
@@ -9,7 +9,7 @@ import Projects from "../components/Projects";
 const Landing = () => {
   return (
     <div>
-      <Header />
+      <Nav />
       <IntroContent />
       <IntroTitle />
       <Projects />
