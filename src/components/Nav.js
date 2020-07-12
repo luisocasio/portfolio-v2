@@ -25,12 +25,19 @@ const Nav = () => {
     height: change ? "40px" : "0px",
     color: change ? "#d617bd" : "#fff",
     zIndex: 200,
+    position: "fixed",
+    height: "70px",
+    display: "flex",
+    alignItems: "center",
+    width: "100%",
   });
   if (typeof window !== undefined) {
     return (
-      <animated.div class="nav" style={barAnimation}>
-        <div class="logo">
-          <Link to="#">FULL STACK WEB DEVELOPER</Link>
+      <animated.div style={barAnimation}>
+        <div class="title">
+          <Link to="#">
+            <h5>FULL STACK WEB DEVELOPER</h5>
+          </Link>
         </div>
 
         <div class="links">

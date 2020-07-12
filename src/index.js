@@ -6,7 +6,7 @@ import Landing from "./pages/Landing";
 
 const App = () => {
   return (
-    <div id="wrapper">
+    <div>
       <Route exact path="/" component={Landing} />
     </div>
   );
